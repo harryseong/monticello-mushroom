@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 html, body {
@@ -6,26 +7,16 @@ html, body {
   width: 100%;
   margin: 0;
   font-family: 'Raleway', sans-serif;
+  background-image: url('../src/assets/mushroom_shelves.jpg');
+  background-size: cover;
 }
 
 .container {
   height: 100%;
   width: 100%;
-  background-image: url('../src/assets/farm_flower.jpg');
-  background-size: cover;
+  background: rgba(155, 155, 155, 0.5); /*can be anything, of course*/
 }
 
 .spacer {
   flex: 1 1 auto;
-}
-
-.overlay {
-  z-index: 1;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  overflow: auto;
-  top: 0;
-  left: 0;
-  background: rgba(255, 255, 255, 0.11); /*can be anything, of course*/
 }

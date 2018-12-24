@@ -1,0 +1,19 @@
+.content {
+  margin-top: 1.5em;
+  padding: 0 3em;
+  color: white;
+}
+
+button#learnMoreBtn {
+  border: 2pt solid white;
+  font-size: 1.2em;
+  height: auto;
+  padding: 0.4em;
+  z-index: 3;
+}
+
+.homeText {
+  font-size: 1.5em;
+  text-align: right;
+  z-index: 3;
+}
