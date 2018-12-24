@@ -1,0 +1,10 @@
+mat-toolbar {
+  height: auto;
+  background-color: transparent;
+  padding: 0.5em;
+}
+
+.logo {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.5em;
+}
