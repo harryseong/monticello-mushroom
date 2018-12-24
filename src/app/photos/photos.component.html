@@ -1,0 +1,26 @@
+<div class="content" fxLayout="row" fxLayoutAlign="end">
+  <div fxFlex="60%" fxFlex.sm="80%" fxFlex.xs="90%" fxLayout="column" fxLayoutGap="0.5em" class="homeText">
+    <div class="photoHeader">
+      SCENES FROM THE FARM
+    </div>
+
+    <div>
+      <slideshow [height]="'300px'"
+                 [minHeight]="'525px'"
+                 [autoPlay]="false"
+                 [showArrows]="true"
+                 [imageUrls]="imageSources">
+      </slideshow>
+    </div>
+    <div class="photoText">
+
+    </div>
+    <div fxLayoutAlign="end">
+      <button class="nav-btn" mat-stroked-button routerLink="" routerLinkActive="active">Home</button>
+    </div>
+    <div fxLayoutAlign="end">
+      <button class="nav-btn" mat-stroked-button routerLink="/about" routerLinkActive="active">About</button>
+    </div>
+  </div>
+</div>
+

@@ -1,10 +1,20 @@
 <div class="content" fxLayout="row" fxLayoutAlign="end">
   <div fxFlex="60%" fxFlex.sm="80%" fxFlex.xs="90%" fxLayout="column" fxLayoutGap="0.5em" class="homeText">
-    <div class="homeText">
+    <div class="aboutHeader">
       ABOUT
     </div>
-    <div>
-      <button mat-stroked-button id="learnMoreBtn" routerLink="about" routerLinkActive="active">SEE PHOTOS</button>
+    <p class="aboutText">
+      Monticello Mushroom Inc. was started in 2009 by KYS, Ph.D. Microbiology.
+      KYS had 2 decades of mycology research under his belt before deciding to fulfill his dream of becoming mushroom farmer.
+    </p>
+    <p class="aboutText">
+      Today, Monticello Mushroom produces 700-800 pounds of oyster mushrooms to the greater Twin Cities area.
+    </p>
+    <div fxLayoutAlign="end">
+      <button class="nav-btn" mat-stroked-button routerLink="" routerLinkActive="active">Home</button>
+    </div>
+    <div fxLayoutAlign="end">
+      <button class="nav-btn" mat-stroked-button routerLink="/photos" routerLinkActive="active">Photos</button>
     </div>
   </div>
 </div>

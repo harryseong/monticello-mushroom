@@ -17,6 +17,12 @@ html, body {
   background: rgba(155, 155, 155, 0.5); /*can be anything, of course*/
 }
 
+.content {
+  margin-top: 1.75em;
+  padding: 0 3em;
+  color: white;
+}
+
 .spacer {
   flex: 1 1 auto;
 }

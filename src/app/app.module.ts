@@ -10,6 +10,8 @@ import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { AboutComponent } from './about/about.component';
+import { PhotosComponent } from './photos/photos.component';
+import {SlideshowModule} from 'ng-simple-slideshow';
 
 @NgModule({
   declarations: [
@@ -17,7 +19,8 @@ import { AboutComponent } from './about/about.component';
     HomeComponent,
     NavComponent,
     FooterComponent,
-    AboutComponent
+    AboutComponent,
+    PhotosComponent
   ],
   imports: [
     BrowserModule,
@@ -25,6 +28,7 @@ import { AboutComponent } from './about/about.component';
     AppRoutingModule,
     FlexLayoutModule,
     MaterialModule,
+    SlideshowModule
   ],
   exports: [
     MaterialModule,
