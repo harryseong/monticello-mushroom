@@ -1,16 +1,11 @@
 .photoHeader {
-  font-size: 1.5em;
-  text-align: right;
-}
-
-.photoText {
-  font-size: 1em;
+  font-size: 2.25em;
   text-align: right;
 }
 
 button.nav-btn {
-  border: 2pt solid white;
-  font-size: 1.75em;
+  border: 1.5pt solid white;
+  font-size: 1em;
   height: auto;
-  padding: 0.3em;
+  padding: 0 1em;
 }

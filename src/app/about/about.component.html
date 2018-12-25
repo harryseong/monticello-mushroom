@@ -1,21 +1,29 @@
-<div class="content" fxLayout="row" fxLayoutAlign="end">
-  <div fxFlex="60%" fxFlex.sm="80%" fxFlex.xs="90%" fxLayout="column" fxLayoutGap="0.5em" class="homeText">
-    <div class="aboutHeader">
-      ABOUT
+<div class="content" fxLayout="column" fxLayoutGap="2em" [@transitionAnimations]="transition">
+  <div fxLayout="row" fxLayoutAlign="end">
+    <div fxFlex="60%" fxFlex.sm="100%" fxFlex.xs="100%" fxLayout="column" fxLayoutGap="0.5em" class="homeText">
+      <div class="aboutHeader">ABOUT</div>
+
+      <div class="aboutText">
+        Monticello Mushroom Inc. was started in 2009 by KYS, Ph.D. Microbiology.
+        He had 2 decades of mycology research under his belt before deciding to fulfill his dream of becoming a mushroom farmer.
+      </div>
+
+      <div class="aboutText">
+        Today, Monticello Mushroom produces 700-800 pounds of oyster mushrooms for fellow Minnesotans around the greater Twin Cities area.
+      </div>
     </div>
-    <p class="aboutText">
-      Monticello Mushroom Inc. was started in 2009 by KYS, Ph.D. Microbiology.
-      KYS had 2 decades of mycology research under his belt before deciding to fulfill his dream of becoming mushroom farmer.
-    </p>
-    <p class="aboutText">
-      Today, Monticello Mushroom produces 700-800 pounds of oyster mushrooms to the greater Twin Cities area.
-    </p>
-    <div fxLayoutAlign="end">
-      <button class="nav-btn" mat-stroked-button routerLink="" routerLinkActive="active">Home</button>
-    </div>
-    <div fxLayoutAlign="end">
-      <button class="nav-btn" mat-stroked-button routerLink="/photos" routerLinkActive="active">Photos</button>
-    </div>
+  </div>
+
+  <div fxLayout="row" fxLayoutAlign="end end" fxLayoutGap="1em" fxLayoutGap.sm="0.5em" fxLayoutGap.xs="-3em">
+    <div fxLayoutAlign="end end"><img [src]="'assets/mushroom_closeup_1_1.jpg'" class="mushPics"></div>
+    <div fxLayoutAlign="end end"><img [src]="'assets/mushroom_1_1.png'" class="mushPics"></div>
+    <div fxLayoutAlign="end end"><img [src]="'assets/mushrooms_basket_1_1.png'" class="mushPics"></div>
+  </div>
+
+  <div fxLayout="row" fxLayoutAlign="end">
+    <button class="nav-btn" mat-stroked-button routerLink="" routerLinkActive="active">
+      <span><i class="fas fa-chevron-left"></i> Back</span>
+    </button>
   </div>
 </div>
 

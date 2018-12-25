@@ -3,18 +3,20 @@
 @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 html, body {
-  height: 100%;
-  width: 100%;
   margin: 0;
   font-family: 'Raleway', sans-serif;
   background-image: url('../src/assets/mushroom_shelves.jpg');
   background-size: cover;
+  height: 100%;
+  width: 100%
 }
 
 .container {
-  height: 100%;
-  width: 100%;
+  position: relative;
+  top: 0;
   background: rgba(155, 155, 155, 0.5); /*can be anything, of course*/
+  height: 100%;
+  width: 100%
 }
 
 .content {

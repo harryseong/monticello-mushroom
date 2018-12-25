@@ -1,10 +1,15 @@
 <div class="content" fxLayout="row" fxLayoutAlign="end">
-  <div fxFlex="60%" fxFlex.sm="80%" fxFlex.xs="90%" fxLayout="column" fxLayoutGap="0.3em">
+  <div fxFlex="60%" fxFlex.sm="80%" fxFlex.xs="90%" fxLayout="column" fxLayoutGap="0.3em" [@transitionAnimations]="transition">
     <div class="homeText">
       Monticello Mushroom was founded in 2009 with the vision of supplying Minnesotans with locally-grown, fresh mushrooms.
     </div>
-    <div fxLayoutAlign="end">
-      <button class="nav-btn" mat-stroked-button id="learnMoreBtn" routerLink="/about" routerLinkActive="active">Learn More</button>
+    <div fxLayout="row" fxLayoutGap="0.75em" fxLayoutAlign="end">
+      <button class="nav-btn" mat-stroked-button routerLink="/photos" routerLinkActive="active">
+        <span><i class="far fa-images fa-fw"></i> Explore</span>
+      </button>
+      <button class="nav-btn" mat-stroked-button routerLink="/about" routerLinkActive="active">
+        <span><i class="fas fa-info-circle fa-fw"></i> Learn More</span>
+      </button>
     </div>
   </div>
 </div>
