@@ -5,6 +5,16 @@ button.nav-btn {
   padding: 0 1em;
 }
 
-.slideshow {
-  width: 100%;
+img {
+  height: 100%;
+}
+
+mat-grid-tile {
+  transition: .4s
+}
+
+mat-grid-tile:hover {
+  transform: scale(1.025);
+  transition: .4s;
+  z-index: 5;
 }

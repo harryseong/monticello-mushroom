@@ -7,10 +7,10 @@ mat-toolbar {
 .logo {
   color: white;
   font-family: 'Indie Flower', cursive;
-  font-size: 1.4em;
+  font-size: 1.2em;
   font-weight: bolder;
 }
 
 #mn {
-  height: 2.2em;
+  height: 2em;
 }

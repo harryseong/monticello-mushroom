@@ -10,7 +10,7 @@ button.nav-btn {
   border-radius: 50%;
   border: 2.5pt solid white;
   width: 100%;
-  max-width: 8em;
+  max-width: 9em;
   height: auto;
   transition: 0.1s;
 }

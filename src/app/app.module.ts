@@ -11,7 +11,6 @@ import { FooterComponent } from './footer/footer.component';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { AboutComponent } from './about/about.component';
 import { PhotosComponent } from './photos/photos.component';
-import {SlideshowModule} from 'ng-simple-slideshow';
 
 @NgModule({
   declarations: [
@@ -28,7 +27,6 @@ import {SlideshowModule} from 'ng-simple-slideshow';
     AppRoutingModule,
     FlexLayoutModule,
     MaterialModule,
-    SlideshowModule
   ],
   exports: [
     MaterialModule,

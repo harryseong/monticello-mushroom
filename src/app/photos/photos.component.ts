@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {animate, style, transition, trigger} from '@angular/animations';
 
 @Component({
@@ -16,7 +16,20 @@ import {animate, style, transition, trigger} from '@angular/animations';
 })
 export class PhotosComponent implements OnInit {
   transition = '';
-  imageUrlArray = ['https://upload.wikimedia.org/wikipedia/commons/a/a9/Macaca_sinica_-_01.jpg'];
+  images = [
+    'assets/mushrooms-1.jpg',
+    'assets/mushrooms-2.jpg',
+    'assets/mushrooms-3.jpg',
+    'assets/mushrooms-4.jpg',
+    // 'assets/mushrooms-6.jpg',
+    // 'assets/mushrooms-7.jpg',
+    'assets/mushrooms-8.jpg',
+    // 'assets/mushrooms-9.jpg',
+    'assets/mushrooms-10.jpg',
+    'assets/mushrooms-5.jpg',
+    // 'assets/mushrooms-11.jpg',
+    'assets/mushrooms-12.jpg'
+  ];
 
   constructor() { }
 
