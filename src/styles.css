@@ -28,3 +28,13 @@ html, body {
 .spacer {
   flex: 1 1 auto;
 }
+
+.pageHeader {
+  font-size: 2em;
+  text-align: right;
+}
+
+.pageText {
+  font-size: 1.1em;
+  text-align: right;
+}

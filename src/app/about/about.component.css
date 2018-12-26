@@ -1,13 +1,3 @@
-.aboutHeader {
-  font-size: 2.25em;
-  text-align: right;
-}
-
-.aboutText {
-  font-size: 1.25em;
-  text-align: right;
-}
-
 button.nav-btn {
   border: 1.5pt solid white;
   font-size: 1em;
@@ -19,8 +9,8 @@ button.nav-btn {
 .mushPics {
   border-radius: 50%;
   border: 2.5pt solid white;
-  max-width: 9em;
-  width: auto;
+  width: 100%;
+  max-width: 8em;
   height: auto;
   transition: 0.1s;
 }

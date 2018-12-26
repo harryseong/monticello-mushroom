@@ -16,12 +16,11 @@ import {animate, style, transition, trigger} from '@angular/animations';
 })
 export class PhotosComponent implements OnInit {
   transition = '';
-  imageSources: ['../src/assets/mushroom_shelves.jpg', '../src/assets/farm_flowers.jpg'];
+  imageUrlArray = ['https://upload.wikimedia.org/wikipedia/commons/a/a9/Macaca_sinica_-_01.jpg'];
 
   constructor() { }
 
   ngOnInit() {
     this.transition = 'fadeIn';
   }
-
 }

@@ -1,22 +1,16 @@
 <div class="content" fxLayout="row" fxLayoutAlign="end">
-  <div fxFlex="60%" fxFlex.sm="80%" fxFlex.xs="90%" fxLayout="column" fxLayoutGap="0.5em" class="homeText" [@transitionAnimations]="transition">
-    <div class="photoHeader">
+  <div fxLayout="column" fxLayoutGap="0.5em" [@transitionAnimations]="transition">
+    <div class="pageHeader">
       SCENES FROM THE FARM
     </div>
+
+    <slideshow [imageUrls]="imageUrlArray"></slideshow>
+
     <div fxLayoutAlign="end">
       <button class="nav-btn" mat-stroked-button routerLink="" routerLinkActive="active">
         <span><i class="fas fa-chevron-left"></i> Back</span>
       </button>
     </div>
-  </div>
-
-  <div>
-    <slideshow [height]="'300px'"
-               [minHeight]="'525px'"
-               [autoPlay]="false"
-               [showArrows]="true"
-               [imageUrls]="imageSources">
-    </slideshow>
   </div>
 </div>
 
