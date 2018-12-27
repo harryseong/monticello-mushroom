@@ -10,10 +10,13 @@ img {
 }
 
 mat-grid-tile {
+  opacity: 0.8;
   transition: .3s
 }
 
 mat-grid-tile:hover {
+  opacity: 1;
+  cursor: pointer;
   transform: scale(1.01);
   transition: .3s;
   z-index: 5;

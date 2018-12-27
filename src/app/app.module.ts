@@ -11,6 +11,7 @@ import { FooterComponent } from './footer/footer.component';
 import {FlexLayoutModule} from '@angular/flex-layout';
 import { AboutComponent } from './about/about.component';
 import { PhotosComponent } from './photos/photos.component';
+import { PhotoDialogComponent } from '../shared/photo-dialog/photo-dialog.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { PhotosComponent } from './photos/photos.component';
     NavComponent,
     FooterComponent,
     AboutComponent,
-    PhotosComponent
+    PhotosComponent,
+    PhotoDialogComponent
   ],
   imports: [
     BrowserModule,
@@ -27,6 +29,9 @@ import { PhotosComponent } from './photos/photos.component';
     AppRoutingModule,
     FlexLayoutModule,
     MaterialModule,
+  ],
+  entryComponents: [
+    PhotoDialogComponent
   ],
   exports: [
     MaterialModule,

@@ -16,6 +16,7 @@ button.nav-btn {
 }
 
 .mushPics:hover {
+  cursor: pointer;
   transform: scale(1.01);
   transition: 0.1s;
 }
