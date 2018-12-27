@@ -20,9 +20,12 @@ html, body {
 }
 
 .content {
-  margin-top: 1.75em;
   padding: 0 3em;
   color: white;
+}
+
+.content.home {
+  margin-top: 1.75em;
 }
 
 .spacer {
