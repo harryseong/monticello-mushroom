@@ -1,15 +1,17 @@
 <div class="content" fxLayout="row" fxLayoutAlign="end">
-  <div fxLayout="column" fxFill fxLayoutGap="0.5em" [@transitionAnimations]="transition">
-    <div class="pageHeader">
-      SCENES FROM THE FARM
-    </div>
+  <div fxLayout="column" fxFill fxLayoutGap="2em" [@transitionAnimations]="transition">
+    <div fxLayout="column" fxLayoutGap="0.5em">
+      <div class="pageHeader">
+        SCENES FROM THE FARM
+      </div>
 
-    <div fxfill>
-      <mat-grid-list cols="4" rowHeight="3:2" gutterSize="0.2em">
-        <mat-grid-tile *ngFor="let image of images">
-          <img [src]="image" alt="">
-        </mat-grid-tile>
-      </mat-grid-list>
+      <div fxfill>
+        <mat-grid-list cols="4" rowHeight="3:2" gutterSize="0.3em">
+          <mat-grid-tile *ngFor="let image of images">
+            <img [src]="image" alt="">
+          </mat-grid-tile>
+        </mat-grid-list>
+      </div>
     </div>
 
     <div fxLayoutAlign="end">

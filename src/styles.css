@@ -5,7 +5,7 @@
 html, body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
-  background-image: url('../src/assets/mushroom_shelves.jpg');
+  background-image: url('../src/assets/bg_shelves.jpg');
   background-size: cover;
   height: 100%;
   width: 100%

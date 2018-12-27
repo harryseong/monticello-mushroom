@@ -10,11 +10,11 @@ img {
 }
 
 mat-grid-tile {
-  transition: .4s
+  transition: .3s
 }
 
 mat-grid-tile:hover {
-  transform: scale(1.025);
-  transition: .4s;
+  transform: scale(1.01);
+  transition: .3s;
   z-index: 5;
 }
