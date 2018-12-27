@@ -11,14 +11,16 @@ button.nav-btn {
   border: 2.5pt solid white;
   width: 100%;
   max-width: 10em;
+  opacity: 0.9;
   height: auto;
-  transition: 0.1s;
+  transition: 0.3s;
 }
 
 .mushPics:hover {
   cursor: pointer;
-  transform: scale(1.01);
-  transition: 0.1s;
+  opacity: 1;
+  transform: scale(1.02);
+  transition: 0.3s;
 }
 
 .mushPicDiv {
