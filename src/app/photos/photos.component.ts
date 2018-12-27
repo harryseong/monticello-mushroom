@@ -39,6 +39,7 @@ export class PhotosComponent implements OnInit {
     const dialogRef = this.dialog.open(PhotoDialogComponent, {
       data: {imageUrl: imageUrl},
       width: 'auto',
+      position: { top: '2em'},
       autoFocus: false
     });
 

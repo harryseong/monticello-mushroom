@@ -8,4 +8,5 @@ button.nav-btn {
   font-size: 1em;
   height: auto;
   padding: 0 1em;
+  z-index: 3;
 }

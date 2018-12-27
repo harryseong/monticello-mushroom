@@ -4,6 +4,7 @@ button.nav-btn {
   height: auto;
   padding: 0 1em;
   margin-bottom: 2em;
+  z-index: 3;
 }
 
 .mushPics {
