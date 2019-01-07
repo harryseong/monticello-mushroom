@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab');
-@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
 
 html, body {
   margin: 0;
@@ -33,11 +32,10 @@ footer {
   min-height: 100%;
   width: auto;
   height: auto;
-  z-index: -100;
   transform: translateX(-50%) translateY(-50%);
   background-size: cover;
   z-index: -5;
-  opacity: 0.6;
+  opacity: 0.75;
 }
 
 .content {
