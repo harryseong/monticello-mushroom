@@ -5,19 +5,39 @@
 html, body {
   margin: 0;
   font-family: 'Raleway', sans-serif;
-  background-image: url('../src/assets/bg_shelves.jpg');
-  background-size: cover;
-  height: 100%;
-  width: 100%
 }
 
-.overlay {
-  top: 0;
-  background: rgba(155, 155, 155, 0.5);
-  height: 100%;
-  width: 100%;
-  margin: 0;
-  margin-bottom: -10em;
+app-root {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+  z-index: 5;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+}
+
+.container {
+  flex: 1;
+  margin: 1em;
+}
+
+.bgImage {
+  background-image: url('../src/assets/bg_shelves.jpg');
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  background-size: cover;
+  z-index: -5;
+  opacity: 0.6;
 }
 
 .content {
